@@ -23,8 +23,8 @@ print(type(text))
 
 #basic math
 
-r=2
-s=4
+r=10
+s=3
 print(r+s)
 print(r-s)
 print(r*s)
@@ -32,7 +32,7 @@ print(r//s)
 print(r**s)
 print(r%s)
 
-#example
+#task
 
 me="Ramaneswari"
 age=19
