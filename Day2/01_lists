@@ -1,0 +1,37 @@
+# creating
+arr=[10,20,30,40]
+print(arr)
+
+#indexing
+print(arr[0])
+print(arr[-1])
+
+#slicing
+print(arr[1:3])
+print(arr[:2])
+print(arr[2:])
+print(arr[::-1])  #reverse
+
+#adding elements
+arr.append(50)
+print(arr)
+arr.insert(2,35)
+print(arr)
+
+#removing elements
+arr.pop()
+print(arr)
+arr.remove(1)
+print(arr)
+
+#sorting (modifies original)
+arr.sort()
+print(arr)
+arr.sort(reverse=True)
+print(arr)
+
+# important difference 
+# sorted(it gives new array insted of modifying original)
+arr1=[3,1,2]
+print(sorted(arr))
+print(arr)
