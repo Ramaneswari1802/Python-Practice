@@ -35,3 +35,4 @@ print(arr)
 arr1=[3,1,2]
 print(sorted(arr))
 print(arr)
+
